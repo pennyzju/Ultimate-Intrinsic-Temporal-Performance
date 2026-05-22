@@ -1,1 +1,0 @@
-mex -output mexCUBATURE_Nop -v -O Cubature_Nop_mex.cpp Cubature_Nop.cpp 
