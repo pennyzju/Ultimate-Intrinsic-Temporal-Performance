@@ -1,0 +1,34 @@
+snr_process_opt_sta_E(3, '20250924staE','left',[-5:1:5]);
+%
+snr_process_opt_sta_E(3, '20250924staE','rot',[-5:1:5]);
+snr_process_opt_sta_M(3, '20250924staM','left',[-5:1:5]);
+%
+snr_process_opt_sta_M(3, '20250924staM','rot',[-5:1:5]);
+
+snr_process_opt_sta_E(7, '20250924staE','front',1);
+snr_process_opt_sta_M(7, '20250924staM','front',1);
+
+
+aUSNR_check(3,'20250924staE','rot',5,'correction');
+aUSNR_check(3,'20250924staM','rot',5,'correction');
+lamda_caculate_fast(3,'20250924staE','rot',5,'correction');
+alpha_caculate_fast(3,'20250924staE','rot',5,'correction');
+lamda_caculate_fast(3,'20250924staM','rot',5,'correction');
+alpha_caculate_fast(3,'20250924staM','rot',5,'correction');
+aUSNR_check(3,'20250924staE','left',5,'correction');
+aUSNR_check(3,'20250924staM','left',5,'correction');
+lamda_caculate_fast(3,'20250924staE','left',5,'correction');
+alpha_caculate_fast(3,'20250924staE','left',5,'correction');
+lamda_caculate_fast(3,'20250924staM','left',5,'correction');
+alpha_caculate_fast(3,'20250924staM','left',5,'correction');
+aUSNR_check(7,'20250924staE','front',5,'correction');
+aUSNR_check(7,'20250924staM','front',5,'correction');
+lamda_caculate_fast(7,'20250924staE','front',5,'correction');
+alpha_caculate_fast(7,'20250924staE','front',5,'correction');
+lamda_caculate_fast(7,'20250924staM','front',5,'correction');
+alpha_caculate_fast(7,'20250924staM','front',5,'correction');
+close all;%关闭所有图窗
+
+
+
+aUSNR_check(3,'20250924staE','left',5,'correction');
